@@ -41,16 +41,10 @@ First, check which Python versions are installed:
 py -0p
 ```
 
-If Python 3.12 is installed, create the environment with:
+If Python 3.13 is installed, create the environment with:
 
 ```bat
-py -3.12 -m venv .venv
-```
-
-If Python 3.12 is not installed but Python 3.11 is, use:
-
-```bat
-py -3.11 -m venv .venv
+py -3.13 -m venv .venv
 ```
 
 Activate the environment in CMD:
