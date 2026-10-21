@@ -117,13 +117,6 @@ Then start the backend:
 ```bat
 python -m backend.main
 ```
-
-If you prefer not to activate the environment, run:
-
-```bat
-.venv\Scripts\python.exe -m backend.main
-```
-
 Expected startup output should indicate that the backend connected to MQTT and subscribed to:
 
 ```text
