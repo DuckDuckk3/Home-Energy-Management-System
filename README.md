@@ -61,28 +61,7 @@ Install the dependencies using the Python executable from the virtual environmen
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
 ```
-
-Create `.env` from the example file:
-
-```bat
-if not exist .env copy .env.example .env
-```
-
-Check that `.env` exists:
-
-```bat
-dir .env
-```
-
 **Important:** use `python -m pip` rather than a standalone `pip` command. This helps ensure packages are installed into the active virtual environment.
-
-If activation does not work, call the virtual environment's Python directly, for example:
-
-```bat
-.venv\Scripts\python.exe -m pip install -r requirements.txt
-```
-
-If `py -3.12` reports `No suitable Python runtime found`, that Python version is not installed or is not detected by the Python launcher. Run `py -0p` and use a version listed there.
 
 ## 3. Start Mosquitto
 
